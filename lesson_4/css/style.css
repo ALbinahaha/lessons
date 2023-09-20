@@ -1,0 +1,203 @@
+
+@import url("reset.css");
+
+
+
+
+/*
+
+header{
+	color: red;
+}
+.top{
+	color: red;
+}
+.rainbow{
+	color: orange;
+}
+.history{
+	color: rgb(192, 186, 25);
+}
+.appearance
+	color: green;
+}
+.colors-of-rainbows{
+	color: rgb(40, 162, 176);
+}
+.white-raimbow{
+	color: blue;
+}
+footer{
+	color: rgb(102, 6, 102);
+}
+
+* {
+	color: red;
+}
+
+p{
+	color: blue;
+}
+a{
+	color: black;
+}
+
+#white-rainbow{
+	color: black;
+}
+
+
+
+div.bottom{
+	color: violet;
+}
+
+
+.white-raimbow,
+.rainbow{
+	color: palevioletred;
+}
+
+.bottom a{
+	color: aliceblue;
+}
+
+.bleu-text{
+	color: blue;
+}
+
+.history .blue-text{
+	color: blue;
+}
+
+.rainbow *{
+	color: orangered;
+}
+
+.history > p{
+	color: red;
+}
+.appearance > p{
+	color: aquamarine;
+}
+
+.appearance ~ p{
+	color: red;
+}
+
+
+.rainbow + p{
+	color: yellow;
+}
+
+
+
+
+*/
+*{
+	color: aliceblue;
+}
+h1{
+	color:rgb(155, 39, 111)
+}
+.top a{
+	color: blue;
+}
+p{
+	color: black;
+}
+.rainbow h3{
+	color: red;
+}
+.rainbow > p{
+	color: violet;
+}
+.rainbow ~ p{
+	color: orangered;
+}
+
+ul{
+	color: green;
+}
+
+.appearance,
+.white-raimbow{
+	color: yellowgreen;
+}
+[class*="history-second"]{
+	color: blue;
+
+}
+
+.fourth-class{
+	color: bisque ;
+}
+.fifth-class {
+	color: palevioletred;
+}
+.fifth-class *{
+	color: black;
+}
+.appearance h3{
+	color: goldenrod;
+}
+.appearance h3 + p{
+	color: blue;
+}
+.second-appearance{
+	color: red;
+}
+
+
+.colors-of-rainbows .rainbow-list{
+	color: blue;
+}
+.colors-of-rainbows li{
+	color: green;
+}
+.colors-of-rainbows > h3{
+	color: violet;
+}
+.colors-of-rainbows >p{
+	color: yellow;
+}
+.bottom >p{
+	color: brown;
+}
+.bottom a{
+	color: orangered;
+}
+.white-raimbow h3{
+	color: aqua;
+}
+/*
+.white-raimbow >p{
+	color: pink;
+}
+*/
+.white-raimbow p{
+	color: yellow;
+}
+.white-raimbow .second-white,
+.white-raimbow .third-white,
+.white-raimbow .fifth-white{
+	color: aquamarine;
+}
+.white-raimbow .third-white{
+	color: rebeccapurple;
+}
+
+
+.history-ul *{
+	color: pink;
+}
+.history  >p{
+	color: green;
+}
+[class*="blue-text"]{
+	color: blueviolet;
+}
+.fourth-class,
+.fifth-class{
+	color:red
+}
