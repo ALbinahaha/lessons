@@ -48,7 +48,7 @@ h3{
 	font-size: 30px;
 	font-style: normal;
 	font-weight: 600;
-	line-height: 127%; /* 38.1px */;
+	line-height: 1,27;
 	text-decoration: none;
 }
 .first-figma .subtitle{
@@ -57,7 +57,7 @@ font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
-line-height: 127%; /* 25.4px */;
+line-height: 1,27;
 }
 
 .first-figma div{
@@ -66,7 +66,7 @@ font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 146.187%; /* 26.314px */;
+line-height: 1,46;
 }
 
 .second-figma h3{
@@ -75,7 +75,7 @@ font-family: Poppins;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
-line-height: 127%; /* 50.8px */;
+line-height: 1,27;
 text-decoration: none;
 }
 .second-figma p{
@@ -84,7 +84,7 @@ text-decoration: none;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 146.187%; /* 26.314px */
+	line-height: 1,46; 
 
 }
 .second-figma li{
@@ -93,7 +93,7 @@ font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
-line-height: 146.187%; /* 26.314px */;
+line-height: 1,46; 
 text-indent: 57px;
 
 }
