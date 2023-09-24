@@ -1,0 +1,122 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:ital,wght@0,600;0,700;1,600&display=swap');
+
+@import url("fonts.css");
+
+
+@import url("reset.css");
+
+
+body{
+	font-family: 'Inter', sans-serif;
+}
+.article{
+	font-family: 'Popins';
+	text-indent: 20px;
+}
+h1{
+	font-family: 'Popins';
+	font-size: 20px;
+	color: rgb(41, 9, 41);
+	font-style: oblique;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 5px 5px 5px yellow;
+	text-transform: capitalize;
+}
+.bottom-list{
+	color: blue;
+text-decoration: underline;
+text-indent: 5px;
+
+}
+h3{
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: 600;
+	font-style: italic;
+	font-family: 'Poppins', serif ;
+	color: rgb(194, 50, 74);
+
+}
+.first-figma h3{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 127%; /* 38.1px */;
+	text-decoration: none;
+}
+.first-figma .subtitle{
+	color: #6B77E5;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 127%; /* 25.4px */;
+}
+
+.first-figma div{
+	color:rgb(125, 125, 125);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 146.187%; /* 26.314px */;
+}
+
+.second-figma h3{
+	color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 127%; /* 50.8px */;
+text-decoration: none;
+}
+.second-figma p{
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 146.187%; /* 26.314px */
+
+}
+.second-figma li{
+	color: #7D7D7D;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 146.187%; /* 26.314px */;
+text-indent: 57px;
+
+}
+.second-figma{
+	text-indent: 41px;
+}
+.conclusion p{
+	font-size: 20px;
+	text-decoration: underline;
+	font-family: 'Poppins';
+	font-style: italic;
+	text-shadow: 5px 5px 5px red;
+
+}
+.article{
+	font-family: 'inter';
+	text-indent: 20px;
+	font-weight: 400;
+}
+.bottom .bottom-p{
+	font-family: 'Causten', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: rgb(187, 61, 187);
+	font-style: italic;
+}
