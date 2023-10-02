@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@import url(reset.css);
+
+body{
+	font-family: 'Merriweather';
+	margin: 50px;
+}
+header{
+	text-align: center;
+	background-color: aquamarine;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+.title-block{
+	background-color: palevioletred;
+	padding: 40px;
+	color: aliceblue;
+	margin: 100px;
+}
+.articles{
+	background-color: yellow;
+	color:brown;
+	max-height: 100px;
+	overflow: scroll;
+	margin-bottom: 50px;
+}
+
+p{
+	margin-bottom: 30px;
+}
+
+/*приклад з блочно-рядкового у блочний*/
+img{
+	background-color: violet;
+	max-width: 400px;
+	padding: 30px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 15px;
+	
+	
+}
+.buttom{
+	background-color: blue;
+	color: white;
+	padding: 30px;
+	margin-bottom: 15px;
+
+
+}
+.buttom p{
+	margin-bottom: 15px;
+}
+.buttom a{
+	color: white;
+	text-decoration: underline;
+	display: inline-block;
+	margin-bottom: 15px;
+}
