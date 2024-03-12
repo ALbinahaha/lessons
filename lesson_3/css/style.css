@@ -1,0 +1,46 @@
+@import url(reset.css);
+
+.title h1{
+	color: red;
+}
+.content h2{
+	color: blue;
+}
+ol > li{
+	color: yellowgreen;
+}
+.paragraphs > p{
+	color: bisque;
+}
+.paragraphs #kozaks{
+	color: brown;
+}
+#revolution{
+	color: aquamarine;
+}
+#revolution+p{
+	color: goldenrod;
+}
+.odesa-title >p{
+	color: blueviolet;
+}
+
+.gegraphic-od h2{
+	color: blue;
+}
+[class*="geo"]{
+	color: pink;
+}
+.gegraphic-od p ~ p{
+	color: green;
+}
+.gegraphic-od h2+p{
+	color: red;
+}
+#present+p{
+	color: brown;
+}
+footer *{
+	color: blue;
+
+}
