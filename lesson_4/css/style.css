@@ -77,6 +77,8 @@
 	font-family: "Quicksand";
 	font-size: 18px;
 	font-weight: 300;
+		line-height: 1.6;
+	text-indent: 20px;
 }
 .homework-title + p{
 	font-family: "Quicksand";
@@ -85,6 +87,8 @@
 	text-align: left;
 	font-size: 16px;
 	text-shadow: 1px 1px 1px yellow;
+		line-height: 1.6;
+	text-indent: 20px;
 }
 .ending{
 	text-decoration: underline;
