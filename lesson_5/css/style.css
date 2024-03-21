@@ -1,0 +1,207 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+h1{
+	color: black;
+	font-size: 30px;
+}
+.header{
+	text-decoration: underline;
+font-size: 20px;
+font-weight: 600;
+color: gray;
+
+}
+header{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+h2{
+	font-family: "Roboto";
+	font-weight: 500;
+	text-align: center;
+	color: #000;
+   font-size: 50px;
+	text-transform: capitalize;
+	padding-top: 100px;
+	
+	width: 100%;
+	margin-bottom: 60px;
+	min-width: 742px;
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.222);
+
+}
+.cards > div{
+	display: inline-block;
+	font-size: 0;
+
+
+	
+}
+.cards{
+	font-size: 0;
+	min-width: 1320px;
+
+}
+.cards > div:not(:last-child){
+	margin-right: 24px;
+}
+.first-article{
+	background-color: rgb(31, 41, 51,0.05);
+	margin-bottom: 70px;
+}
+h3{
+	font-family: "Proxima Nova regular";
+	color: #2b2929;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	margin-bottom: 40px;}
+	.second-article img{
+		margin-bottom: 40px;
+	}
+	.second-article-first p{
+		font-family: "Proxima Nova regular";
+		font-size: 16px;
+		line-height: 1.8;
+	}
+	.second-article-first{
+		margin-bottom: 40px;
+	}
+	h4{
+		font-family: "Proxima Nova regular";
+		font-size: 20px;
+		line-height: 1.4;
+		margin-bottom: 30px;
+	}
+	.second-article-second li{
+		font-family: "Proxima Nova regular";
+		font-size: 16px;
+		padding-left: 47px;
+		line-height: 1.8;
+	}
+	.second-article-second li:not(:last-child){
+		margin-bottom: 20px;
+	}
+	.list-second{
+		margin-bottom: 40px;
+	}
+	.second-article-second p{
+		font-family: "Proxima Nova regular";
+		font-size: 16px;
+		line-height: 1.8;
+
+	}
+	.second-article{
+		margin-bottom: 60px;
+	}
+	h5{
+		font-family: "Proxima Nova regular";
+		font-size: 40px;
+		line-height: 1.2;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.third-blocks div{
+	
+		display: inline-block;
+		text-align: center;
+		max-width: 300px;
+		vertical-align: top ;
+
+	}
+	.third-blocks div:not(:last-child){
+		margin-right: 30px;
+	}
+	.third-blocks p{
+		
+		font-family: "Proxima Nova regular";
+		font-size: 16px;
+		line-height: 1.8;
+
+	}
+	.third-blocks h6{
+		font-family: "Proxima Nova regular";
+		font-size: 26px;
+		line-height: 1.3;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+		.third-blocks img{
+			margin-bottom: 20px;
+		}
+	.third-blocks{
+	
+	}
+	.third-article{
+		margin-right: -12px;
+		margin-left: -12px;
+		background-color: #f8f8f8;
+		margin-bottom: 60px;
+	}
+
+	.homework h6{
+		font-size: 30px;
+		font-weight: 700;
+		background-color: violet;
+		width: 300px;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.homework p{
+		background-color: aquamarine;
+		padding: 50px;
+		width: 200px;
+		height: 200px;
+		overflow: auto;
+		margin-left: 50px;
+		margin-bottom: 50px;
+	}
+	.homework a{
+		text-decoration: underline;
+		color: blue;
+		
+		background-color: antiquewhite;
+		margin-left: 100px;
+
+
+	}
+	.homework span{
+		display: inline-block;
+		background-color: brown;
+		padding: 20px;
+		margin: 50px;
+
+	}
+	.homework-div{
+		width: 200px;
+		height: 300px;
+		background-color: cornflowerblue;
+		padding: 20px;
+		
+		margin-bottom: 50px;
+	}
+
+	.list-homework{
+		display: inline-block;
+
+		font-size: 0;
+		padding-left: 100px;
+		
+	}
+	.list-homework div{
+		width: 100px;
+		height: 50px;
+		display: inline-block;
+		margin-right: 20px;
+		font-size: 20px;
+		font-weight: 500;
+		vertical-align: bottom;text-align: center;
+		background-color: darksalmon;
+	}
