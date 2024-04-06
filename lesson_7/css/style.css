@@ -1,0 +1,333 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+
+
+h1{
+	font-family: "Proxima Nova Regular", sans-serif;
+	line-height: 1.5;
+	font-size: 30px;
+	max-width: 600px;
+	min-height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	background-color: aquamarine;
+	border-radius: 25%;
+	padding: 30px;
+	border: 1px solid black;
+
+}
+
+.links a{
+	background-color: bisque;
+		font-family: "Proxima Nova Regular", sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	display: block;
+	max-width: 300px;
+	text-align: center;
+	line-height: 1.5;
+	border-radius: 25%;
+}
+.links{
+	
+	margin: 0 auto;
+	max-width: 200px;
+	margin-top: 30px;
+}
+.links a:not(:last-child){
+	margin-bottom: 20px;
+}
+.links a::before{
+	background:url(../img/hand.png) 0 0 no-repeat;
+	content: "";
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background-position: bottom;
+	padding-top: 20px;
+}
+.links a:hover{
+	background-color: rgba(255, 228, 196, 0.449);
+	opacity: 0.6;
+	text-decoration: underline;
+}
+.header{
+	margin-bottom: 50px;
+}
+.krovato{
+	max-width: 1070px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.krovatoh2{
+	font-family: "Proxima Nova Regular",sans-serif;
+	font-weight: 400;
+	color: #2b2929;
+	font-size: 40px;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+.krovato-first img{
+	border-radius: 8px;
+	margin-bottom: 40px;
+}
+.krovato-first p{
+	font-family: "Proxima Nova Regular",sans-serif;
+	font-weight: 400;
+	color: #2b2929;
+	font-size: 16px;
+	line-height: 1.8;
+}
+.krovato-first{
+	margin-bottom: 40px;
+}
+.krovatoh3{
+	font-family: "Proxima Nova Regular",sans-serif;
+	font-weight: 400;
+	color: #2b2929;
+	font-size: 20px;
+	line-height: 1.4; /* 28/20 */
+	margin-bottom: 30px;
+}
+.krovato-list li{
+	font-family: "Proxima Nova Regular",sans-serif;
+	font-weight: 400;
+	color: #2b2929;
+	font-size: 16px;
+	line-height: 1.8; /* 30/16 */
+	padding-left: 47px;
+}
+.krovato-list li:not(:last-child){
+	margin-bottom: 20px;
+}
+.krovato-list li::before{
+	background: url(../img/ok.svg) 0 0 no-repeat;
+	content: "";
+	width: 27px;
+	height: 27px;
+	display: inline-block;
+	margin-right: 17px;
+	background-position: center;
+	margin-left: -47px;
+}
+.krovato-list{
+	margin-bottom: 40px;
+}
+.krovato-second p{
+	font-family: "Proxima Nova Regular",sans-serif;
+	font-weight: 400;
+	color: #2b2929;
+	font-size: 16px;
+	line-height: 1.87; /* 30/16 */
+}
+.krovato-first p:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.portfolioh3{
+	font-family: "Exo",sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 60px;
+	line-height: 1.16; /* 70/60 */
+	text-transform: uppercase;
+	padding-top: 120px;
+	text-align: center;
+	max-width: 401px;
+	margin: 0 auto;
+	
+}
+
+.portfolio{
+	background: url(../img/portfolio.png) 0 0 no-repeat;
+	max-width: 1512px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.portfolioh3::after{
+	content: "";
+	height: 1px;
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(66,255,0,1) 50%, rgba(36,0,255,1) 100%);
+	display: inline-block;
+	width: 100%;
+	
+}
+.portfolio >p{
+	text-align: center;
+	font-family: "Exo",sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 18px;
+	line-height: 2.2; /* 40/18 */
+	max-width: 992px;
+	text-align: center;
+	text-transform: capitalize ;
+	margin: 0 auto;
+	letter-spacing: -1px;
+	margin-bottom: 60px;
+}
+.portfolio-group p{
+	font-family: "Orbitron",sans-serif;
+	font-weight: 500;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.25; /* 25/20 */
+	display: inline-block;
+	text-transform: capitalize;
+	
+}
+.portfolio-group p:not(:last-child){
+margin-right: 31px;
+}
+.portfolio-group{
+	display: inline-block;
+	font-size: 0;
+	padding-left: 181px;
+}
+.portfolio-group p::after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(66,255,0,1) 50%, rgba(36,0,255,1) 100%);
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 20px;
+
+}
+.portfolio2{
+	max-width: 1100px;
+
+	font-size: 0;
+	background-color: black;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.portfolio2 p{
+	font-family: "Exo",sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: -1px;
+	display: inline-block;
+}
+.portfolio2 p:first-child::before{
+	background: url(../img/telephone.svg) 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 20px;
+}
+.portfolio2 p:first-child{
+	padding-left: 37px;
+	margin-right: 120px;
+}
+.portfolio2 p:last-child{
+	margin-left: 120px;
+}
+.portfolio2 p:nth-child(2){
+	text-transform: capitalize;
+
+}
+.portfolio2 p:nth-child(2)::before{
+	background: url(../img/location.svg) 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 20px;
+}
+.portfolio2 p:last-child::before{
+	background: url(../img/letter.svg) 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 20px;
+}
+.game{
+
+	display: inline-block;
+	font-size: 0;
+	height: 100%;
+	background-color: bisque;
+	margin-bottom: 50px;
+	
+	
+	}
+	.game1{
+		width: 50px;
+		height: 100px;
+		background-color: pink;
+		display: inline-block;
+		font-size: 0;
+	}
+	
+	.game1:hover + .game2{
+		visibility: visible;
+	}
+	
+	.game2{
+		width: 750px;
+		height: 50px;
+		background-color: pink;
+		display: inline-block;
+		font-size: 0;
+		visibility: hidden;
+	}
+	.game2:hover{
+		visibility: visible;
+	}
+	.game3{
+		background-color: pink;
+	
+		margin-left: 750px;
+		height: 300px;
+		width: 50px;
+		visibility: hidden;
+	
+	}
+	.game2:hover + .game3,
+	.game3:hover{
+		visibility: visible;
+	}
+	.game4{
+		background-color: pink;
+		height: 50px;
+		width: 350px;
+		margin-left: 450px;
+		visibility: hidden;
+	}
+	.game3:hover + .game4,
+	.game4:hover{
+	visibility: visible;
+	}
+	.game5{
+		background-color: pink;
+		width: 20px;
+		height: 250px;
+		margin-left: 450px;
+		visibility: hidden;
+	}
+	.game4:hover + .game5,
+	.game5:hover{
+	visibility: visible;
+	}
+	.game6{
+		background-color: red;
+		width: 20px;
+		height: 20px;
+		margin-left: 450px;
+		visibility: hidden;
+	}
+	.game5:hover + .game6,
+	.game6:hover{
+	visibility: visible;
+	}
+	
