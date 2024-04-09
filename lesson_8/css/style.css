@@ -1,0 +1,82 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1{
+	font-family: "Bungee Spice", sans-serif;
+	font-size: 50px;
+	max-width: 500px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 0, 0.304);
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.main{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+	border: 2px solid blue;
+	background-color: rgba(0, 0, 255, 0.078);
+	font-family: "Bebas Neue",sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+}
+.main p:not(:last-child){
+	margin-bottom: 15px;
+}
+
+.main span:hover{
+	color: rgba(0, 0, 0, 0.3);
+}
+.main span{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+.main p{
+	height: 100px;
+	max-width: 500px;
+	
+}
+.main :last-of-type img{
+	max-width: 200px;
+	max-height: 300px;
+}
+.main{
+	margin-bottom: 50px;
+}
+
+.krovato{
+	max-width: 1000px;
+	margin: 0 auto;
+
+	background-color: rgba(0, 128, 0, 0.225);
+	border: 2px solid green;
+	padding: 20px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	
+
+}
+picture img{
+	border-radius: 8px;
+}
+.up a{
+font-family: "Bungee Spice", sans-serif;
+	font-size: 50px;
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 0, 0.304);
+	text-align: center;
+	padding: 20px;
+	display: block;
+}
+.up a:hover{
+	opacity: 0.5;
+	text-decoration: underline;
+}
+picture p{
+	display: inline-block;
+}
